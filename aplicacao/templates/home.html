@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Cadastros</title>
+</head>
+<body>
+    <h1>Cadastros</h1>
+
+    <div class = "lista-de-cadastros">
+        <section class="cadastros">
+
+            {% for cadastros in todos_cadastros %}
+            <a href="{% url 'aplicacao:visualizar_cadastros' cadastros.id %}" id="linkCadastro">
+                <div class="cadastro-card">
+                    <h2>{{cadastros.nome}}</h2>
+                </div>
+            </a>
+            {% endfor %}
+
+        </section>
+    </div>
+
+</body>
+</html>
