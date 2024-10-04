@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(219, 222, 228);
+}
+
+#tituloCadastros{
+    color: brown;
+}
+
+.lista-de-cadastros{
+    display: flex;
+}
+
+.cadastro-card{
+    color: aliceblue;
+    background-color: rgb(83, 83, 138);
+    border-radius: 5px;
+    text-align: center;
+}
