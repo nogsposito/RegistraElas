@@ -22,5 +22,16 @@ class CadastroDetalhadoView(View):
     
 class AdicionarCadastro(View):
     def get (self, request):
-        return render (request, 'adicionar_cadastro.html')
-    
+        if request.method == "GET":
+            return render (request, 'adicionar_cadastro.html')
+        
+    def post(self, request):
+        if request.method == "POST":
+            nome = request.POST.get('formNome')
+            idade = request.POST.get('formIdade')
+
+            Cadastro = cadastros(nome = nome, idade = idade)
+
+            Cadastro.save()
+
+            return redirect('aplicacao:home')

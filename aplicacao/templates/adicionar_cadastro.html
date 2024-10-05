@@ -9,5 +9,28 @@
 </head>
 <body>
     <h1>Novo cadastro</h1>
+
+    <div class="form-container">
+
+        <form action="{% url 'aplicacao:adicionar_cadastro' %}" method="POST">
+            {% csrf_token %}
+            <label for="textFormNome">Nome do cadastrado:</label>
+            <br>
+            <input type="text" id="textFormNome" name="formNome" maxlength="80" placeholder="Digite aqui o nome" required>
+            <br>
+            <br>
+
+            <label for="numberFormIdade">Idade do cadastrado:</label>
+            <br>
+            <input type="number" id="numberFormIdade" name="formIdade" required>
+            <br>
+            <br>
+
+            <div class="botaoForm">
+                <input type="submit" value="Enviar" class="button">
+            </div>
+
+        </form>
+    </div>
 </body>
 </html>
