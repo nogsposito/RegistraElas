@@ -4,15 +4,19 @@ body {
 
 #tituloCadastros{
     color: brown;
+    display: flex;
+    text-align: center;
+    width: 50%;
 }
 
 .lista-de-cadastros{
-    display: flex;
+    width: 10%;
 }
 
 .cadastro-card{
-    color: aliceblue;
-    background-color: rgb(83, 83, 138);
+    color: rgb(32, 68, 99);
+    background-color: rgb(197, 197, 219);
+    box-shadow: 50%;
     border-radius: 5px;
     text-align: center;
 }

@@ -20,3 +20,7 @@ class CadastroDetalhadoView(View):
         ctx = {'cadastro':cadastros.objects.filter(id=id).first()}
         return render (request, 'visualizar_cadastro.html', ctx)
     
+class AdicionarCadastro(View):
+    def get (self, request):
+        return render (request, 'adicionar_cadastro.html')
+    
