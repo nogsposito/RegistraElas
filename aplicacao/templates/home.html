@@ -1,35 +1,29 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Cadastros</title>
-    {% load static %}
+    <title>Home</title>
     <link rel="stylesheet" href="{% static 'aplicacao/css/home.css' %}">
 </head>
 <body>
-
     {% include 'navbar.html' %} 
 
     <h1 id="tituloCadastros">Cadastros</h1>
 
     <div class = "lista-de-cadastros">
-        <section class="cadastros">
-            <a href="{% url 'aplicacao:cadastrar' %}" id="linkAddCadastros">
-                <div class="novo-cadastro-card">
-                    <h2>Novo Cadastro</h2>
-                </div>
-            </a>
+        <a href="{% url 'aplicacao:cadastrar' %}">
+            <h2>Novo Cadastro</h2>
+        </a>
 
-            {% for cadastros in todos_cadastros %}
-            <a href="{% url 'aplicacao:visualizar_cadastros' cadastros.id %}" id="linkVisualizarCadastro">
-                <div class="cadastro-card">
-                    <h2>{{cadastros.nome}}</h2>
-                </div>
-            </a>
-            {% endfor %}
-        </section>
+        {% for cadastros in todos_cadastros %}
+        <a href="{% url 'aplicacao:visualizar_cadastros' cadastros.id %}">
+            <div class="cadastro-card">
+                <h2>{{cadastros.nome}}</h2>
+            </div>
+        </a>
+        {% endfor %}
     </div>
-
 </body>
 </html>
