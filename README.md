@@ -2,7 +2,7 @@
 
 O (nome) é uma aplicação web voltado para o **gerenciamento de cadastros da empresa Fábrica de Ideias.**
 
-Utilizando o framework **Django**, a aplicação foi desenvolvida com o objetivo de oferecer um gerenciamento do sistema de cadastro das mulheres interessadas em trabalhar na Fábrica de Ideias. De forma que o processo de contrato seja facilitado e atinja mais possíveis colaboradoras.
+Utilizando a linguagem de programação **Python**, junto com o framework **Django**, com deploy na **Azure**, a aplicação foi desenvolvida com o objetivo de oferecer um gerenciamento do sistema de cadastro de pessoas interessadas em trabalhar na Fábrica de Ideias, de forma que o processo de contrato seja facilitado e atinja mais possíveis colaboradores.
 
 # Status Report 1
 
