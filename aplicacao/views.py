@@ -1,6 +1,5 @@
 from django.shortcuts import redirect, render
 from django.views import View
-
 from .models import cadastros
 
 class CadastrosView(View):
