@@ -2,7 +2,7 @@ from django.shortcuts import redirect, render
 from django.views import View
 from .models import cadastros
 
-class CadastrosView(View):
+class HomeView(View):
     def get (self, request):
         cadastro = cadastros.objects.all()
 
@@ -11,17 +11,11 @@ class CadastrosView(View):
         }
 
         return render(request, 'home.html', ctx)
-
-class CadastroDetalhadoView(View):
-
-    def get (self, request, id):
-        ctx = {'cadastro':cadastros.objects.filter(id=id).first()}
-        return render (request, 'visualizar_cadastro.html', ctx)
     
-class AdicionarCadastro(View):
+class CadastrarView(View):
     def get (self, request):
         if request.method == "GET":
-            return render (request, 'adicionar_cadastro.html')
+            return render (request, 'cadastrar.html')
         
     def post(self, request):
         if request.method == "POST":
@@ -33,3 +27,9 @@ class AdicionarCadastro(View):
             Cadastro.save()
 
             return redirect('aplicacao:home')
+
+class VisualizarCadastroView(View):
+    def get (self, request, id):
+        ctx = {'cadastro':cadastros.objects.filter(id=id).first()}
+
+        return render (request, 'visualizar_cadastro.html', ctx)

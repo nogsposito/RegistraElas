@@ -4,7 +4,7 @@ from . import views
 app_name = 'aplicacao'
 
 urlpatterns = [
-    path('', views.CadastrosView.as_view(), name = "home"),
-    path('visualizar/<int:id>/', views.CadastroDetalhadoView.as_view(), name='visualizar_cadastros'),
-    path('adicionar', views.AdicionarCadastro.as_view(), name='adicionar_cadastro'),
+    path('', views.HomeView.as_view(), name = "home"),
+    path('cadastrar', views.CadastrarView.as_view(), name='cadastrar'),
+    path('visualizar/<int:id>/', views.VisualizarCadastroView.as_view(), name='visualizar_cadastros')
 ]
