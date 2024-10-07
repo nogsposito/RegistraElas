@@ -21,8 +21,16 @@ class CadastrarView(View):
         if request.method == "POST":
             nome = request.POST.get('formNome')
             idade = request.POST.get('formIdade')
+            cpf = request.POST.get('formCpf')
+            celular = request.POST.get('formCelular')
+            cep = request.POST.get('formCep')
+            cidade = request.POST.get('formCidade')
+            bairro = request.POST.get('formBairro')
+            rua = request.POST.get('formRua')
+            numero = request.POST.get('formNumero')
+            complemento = request.POST.get('formComplemento')
 
-            Cadastro = cadastros(nome = nome, idade = idade)
+            Cadastro = cadastros(nome = nome, idade = idade, cpf = cpf, celular = celular, cep = cep, cidade = cidade, bairro = bairro, rua = rua, numero = numero, complemento = complemento)
 
             Cadastro.save()
 

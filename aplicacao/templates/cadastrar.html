@@ -17,17 +17,35 @@
 
         <form action="{% url 'aplicacao:cadastrar' %}" method="POST">
             {% csrf_token %}
-            <label for="textFormNome">Nome do cadastrado:</label>
-            <br>
-            <input type="text" id="textFormNome" name="formNome" maxlength="80" placeholder="Digite aqui o nome" required>
-            <br>
-            <br>
+            <label for="textFormNome">Nome:</label><br>
+            <input type="text" id="textFormNome" name="formNome" maxlength="150" required><br><br>
 
-            <label for="numberFormIdade">Idade do cadastrado:</label>
-            <br>
-            <input type="number" id="numberFormIdade" name="formIdade" required>
-            <br>
-            <br>
+            <label for="numberFormIdade">Idade:</label><br>
+            <input type="number" id="numberFormIdade" name="formIdade" required><br><br>
+
+            <label for="textFormCpf">CPF:</label><br>
+            <input type="text" id="textFormCpf" name="formCpf" maxlength="11"><br><br>
+
+            <label for="textFormCelular">Celular:</label><br>
+            <input type="text" id="textFormCelular" name="formCelular" maxlength="15"><br><br>
+
+            <label for="textFormCep">CEP:</label><br>
+            <input type="text" id="textFormCep" name="formCep" maxlength="9"><br><br>
+
+            <label for="textFormCidade">Cidade:</label><br>
+            <input type="text" id="textFormCidade" name="formCidade" maxlength="30" required><br><br>
+
+            <label for="textFormBairro">Bairro:</label><br>
+            <input type="text" id="textFormBairro" name="formBairro" maxlength="100"><br><br>
+
+            <label for="textFormRua">Rua:</label><br>
+            <input type="text" id="textFormRua" name="formRua" maxlength="150"><br><br>
+            
+            <label for="numberFormNumero">Numero:</label><br>
+            <input type="number" id="numberFormNumero" name="formNumero"><br><br>
+
+            <label for="textFormComplemento">Complemento:</label><br>
+            <input type="text" id="textFormComplemento" name="formComplemento" maxlength="50"><br><br>
 
             <div class="botaoForm">
                 <input type="submit" value="Enviar" class="button">
