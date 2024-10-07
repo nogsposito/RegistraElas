@@ -5,7 +5,7 @@ from django.db import models
 class cadastros(models.Model):
     nome = models.CharField(max_length=150)
     idade = models.IntegerField(default=0)
-    cpf = models.CharField(max_length=11, default="")
+    cpf = models.CharField(max_length=14, default="")
     celular = models.CharField(max_length=15, default="")
     cep = models.CharField(max_length=9, default="")
     cidade = models.CharField(max_length=30, default="Cidade não informada")
