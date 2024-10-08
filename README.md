@@ -10,6 +10,8 @@ Utilizando a linguagem de programação **Python**, junto com o framework **Djan
 
 ## Screencast do Protótipo de Baixa Fidelidade
 
+https://github.com/user-attachments/assets/992868c6-1de6-4111-9749-83ff5b0e3f30
+
 ## Diagrama de Atividade do Sistema
 
 ## Print do Issue Bug Tracker
