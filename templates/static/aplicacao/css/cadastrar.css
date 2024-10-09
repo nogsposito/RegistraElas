@@ -1,3 +1,60 @@
-body{
-    background-color: rgb(201, 221, 221);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: Afacad;
+    background-color: rgb(219, 197, 197);
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+    color: rgb(185, 38, 38); /* Cor do título */
+    margin: 20px 0; /* Espaçamento acima e abaixo do título */
+}
+
+.container {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 20px auto; /* Margens automáticas para centralização */
+    padding: 20px; /* Preenchimento interno */
+    background-color: rgb(10, 29, 46);
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para o efeito de elevação */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Para organizar os inputs em coluna */
+}
+
+label {
+    margin: 10px 0 5px; /* Espaçamento entre o label e o input */
+    color: white; /* Cor do texto do label */
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px; /* Preenchimento interno */
+    border: 1px solid #ddd; /* Borda do input */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-bottom: 20px; /* Espaçamento abaixo de cada input */
+    background-color: rgb(255, 255, 255); /* Cor de fundo dos inputs */
+}
+
+input[type="submit"] {
+    padding: 10px; /* Preenchimento interno do botão */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: rgb(185, 38, 38); /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+input[type="submit"]:hover {
+    background-color: #7bdb89; /* Cor do botão ao passar o mouse */
 }
