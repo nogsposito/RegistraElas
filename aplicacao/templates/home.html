@@ -14,7 +14,9 @@
 
     <div class = "lista-de-cadastros">
         <a href="{% url 'aplicacao:cadastrar' %}">
-            <h2>Novo Cadastro</h2>
+            <div class="novo-cadastro-card">
+                <h2>Novo Cadastro</h2>
+            </div>
         </a>
 
         {% for cadastros in todos_cadastros %}
