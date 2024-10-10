@@ -24,6 +24,10 @@ Nenhum problema ou bug durante o processo.
 
 ## Relato da Programação em Par
 
+### Célio Pereira & Pedro Caldas
+
+Ficamos responsáveis nessa entrega pela criação das models do projeto, criamos e migramos todo o banco de dados com as informações necessárias para o cadastro das colaboradoras e construimos a view que através do método post coletava essas informações de um formulário e salvava no banco de dados. O processo em si foi muito produtivo e mais ágil já que Célio como co-piloto ditava os nomes das variáveis enquanto Pedro ia as inserindo, evitando que Pedro precisasse ficar indo e voltando no código, além de evitar que alguma tenha sido esquecida de ser implementada.
+
 # Equipe
 
 ## Designers
