@@ -14,7 +14,9 @@ https://github.com/user-attachments/assets/992868c6-1de6-4111-9749-83ff5b0e3f30
 
 ## Diagrama de Atividade do Sistema
 
-## Print do Issue Bug Tracker
+## Issue Bug Tracker
+
+Nenhum problema ou bug durante o processo.
 
 ## Link e Instruções do Uso do Sistema
 
