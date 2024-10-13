@@ -6,7 +6,7 @@ Utilizando a linguagem de programação **Python**, junto com o framework **Djan
 
 # Status Report 1
 
-## Sketches e Storyboards
+## [Sketches e Storyboards](https://www.figma.com/design/fTioqKPETrVQNRDNrNag3D/Projetos-2?node-id=0-1&t=Wv1ZfvWodqHXZJrR-1)
 
 ## Screencast do Protótipo de Baixa Fidelidade
 
