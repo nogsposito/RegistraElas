@@ -1,4 +1,4 @@
-# (FabricaDeIdeias\ADM)
+# (nome)
 
 O (nome) é uma aplicação web voltado para o **gerenciamento de cadastros da empresa Fábrica de Ideias.**
 
@@ -36,6 +36,9 @@ João Danilo era o piloto no código (isso é, quem estava de fato digitando o c
 
 Enfim, o resultado foi muito satisfatório, visto que conseguimos aprender coisas novas que nos farão melhor no que nós fazemos. Provavelmente não será prático fazer isso todas as vezes, visto que demorou muito mais do que demoraria se estivéssemos fazendo sozinhos, mas mesmo assim encontramos valor na prática e entendemos o escopo da importância da revisão de código por terceiros e a refatoração de códigos por outras pessoas, em prol de sua qualidade.
 
+### Tiago Emilio  & Marcelo Queiroga
+
+A nossa responsabilidade era fazer o Deploy no AZURE , onde ainda iriamos começar pois nos dois nao sabiamos muito sobre como fazer , tivemos que primeiramente pesquisar sobre e entender como fazia apos isso nos dois nos reunimos pelo discord para tentarmos fazer porem ainda tivemos algumas dificuldades em meio ao processo  mas consguindo nos ajudar multuamente para conseguir alcançar nosso objetivo , acredito que ao ter feito essa tarefa em dupla acabou por ajudar bastante por conta que um ajudava o outro em diversas questoes 
 
 # Equipe
 
