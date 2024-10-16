@@ -38,7 +38,7 @@ Enfim, o resultado foi muito satisfatório, visto que conseguimos aprender coisa
 
 ### Tiago Emilio  & Marcelo Queiroga
 
-A nossa responsabilidade era fazer o Deploy no AZURE , onde ainda iriamos começar pois nos dois nao sabiamos muito sobre como fazer , tivemos que primeiramente pesquisar sobre e entender como fazia apos isso nos dois nos reunimos pelo discord para tentarmos fazer porem ainda tivemos algumas dificuldades em meio ao processo  mas consguindo nos ajudar multuamente para conseguir alcançar nosso objetivo , acredito que ao ter feito essa tarefa em dupla acabou por ajudar bastante por conta que um ajudava o outro em diversas questoes 
+A nossa responsabilidade era fazer o Deploy no AZURE , onde ainda iriamos começar pois nos dois nao sabiamos muito sobre como fazer , tivemos que primeiramente pesquisar sobre e entender como fazia apos isso nos dois nos reunimos pelo discord para tentarmos fazer sendo marcelo o piloto enquanto eu era o co-piloto pesquisando sobre duvidas que vinham a surgir porem ainda tivemos algumas dificuldades em meio ao processo  mas consguindo nos ajudar multuamente para conseguir alcançar nosso objetivo , acredito que ao ter feito essa tarefa em dupla acabou por ajudar bastante por conta que um ajudava o outro em diversas questoes assim um complementado as dificuldades do outro, no geral achamos muito produtivo e pratico.
 
 # Equipe
 
