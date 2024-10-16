@@ -1,4 +1,4 @@
-# (nome)
+# (FabricaDeIdeias\ADM)
 
 O (nome) é uma aplicação web voltado para o **gerenciamento de cadastros da empresa Fábrica de Ideias.**
 
