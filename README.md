@@ -6,7 +6,7 @@ Utilizando a linguagem de programação **Python**, junto com o framework **Djan
 
 # Status Report 1
 
-## [Sketches e Storyboards](https://www.figma.com/design/fTioqKPETrVQNRDNrNag3D/Projetos-2?node-id=0-1&t=Wv1ZfvWodqHXZJrR-1)
+## [Sketches e Storyboards](https://www.figma.com/design/fTioqKPETrVQNRDNrNag3D/RegistraElas?node-id=0-1&t=KtaNI5oAUxeJ8IyD-1)
 
 ## Screencast do Protótipo de Baixa Fidelidade
 
@@ -16,33 +16,31 @@ https://github.com/user-attachments/assets/992868c6-1de6-4111-9749-83ff5b0e3f30
 
 ![Diagrama](https://github.com/nogsposito/RegistraElas/blob/main/assets/Screenshot%202024-10-17%2014.42.55.png)
 
-https://lucid.app/lucidchart/e7280f17-ef8f-4b89-8089-3e48a311c40d/edit?viewport_loc=-2030%2C-588%2C2690%2C1188%2C0_0&invitationId=inv_8a7efea1-4c63-42b2-b9af-ad56427c8cc7
-
 ## Issue Bug Tracker
 
 Nenhum problema ou bug durante o processo.
 
-## Link e Instruções do Uso do Sistema
+## Link do Sistema
 
-### Screencast do Uso do Sistema
+## Screencast do Uso do Sistema
 
 ## Relato da Programação em Par
 
-### Célio Pereira & Pedro Caldas
+### Célio Dias & Pedro Caldas
 
-Ficamos responsáveis nessa entrega pela criação das models do projeto, criamos e migramos todo o banco de dados com as informações necessárias para o cadastro das colaboradoras e construimos a view que através do método post coletava essas informações de um formulário e salvava no banco de dados. O processo em si foi muito produtivo e mais ágil já que Célio como co-piloto ditava os nomes das variáveis enquanto Pedro ia as inserindo, evitando que Pedro precisasse ficar indo e voltando no código, além de evitar que alguma tenha sido esquecida de ser implementada.
+Ficamos responsáveis nessa entrega pela criação das models do projeto, criamos e migramos todo o banco de dados com as informações necessárias para o cadastro das colaboradoras e construímos a view que através do método post coletava essas informações de um formulário e salvava no banco de dados. O processo em si foi muito produtivo e mais ágil já que Célio como copiloto ditava os nomes das variáveis enquanto Pedro ia as inserindo, evitando que Pedro precisasse ficar indo e voltando no código, além de evitar que alguma tenha sido esquecida de ser implementada.
 
 ### João Danilo Jota & Vinícius Spósito
 
 Estivemos responsáveis por consertar o CSS da aplicação, que estava até então muito mínimo e incompleto, visto que estávamos mais focados em implementar as funcionalidades para depois ajustar a estética do projeto devidamente pelos arquivos estáticos.
 
-João Danilo era o piloto no código (isso é, quem estava de fato digitando o código) e Vinícius Spósito ficou como co-piloto (assistia o piloto construir o código e revisaria, discutiria e faria sugestões para sua melhoria). No curso do trabalho, tivemos que pesquisar juntos para fazer o design da forma que idealizamos e acabamos aprendendo muito mais sobre CSS ao fazer isso, e também simplesmente trabalhando no arquivo juntos. Nós dois tivemos uma dimensão melhor de como cada um pensa e dos processos mentais que passamos quando estamos construindo uma aplicação web. 
+João Danilo era o piloto no código (isso é, quem estava de fato digitando o código) e Vinícius Spósito ficou como copiloto (assistia o piloto construir o código e revisaria, discutiria e faria sugestões para sua melhoria). No curso do trabalho, tivemos que pesquisar juntos para fazer o design da forma que idealizamos e acabamos aprendendo muito mais sobre CSS ao fazer isso, e também simplesmente trabalhando no arquivo juntos. Nós dois tivemos uma dimensão melhor de como cada um pensa e dos processos mentais que passamos quando estamos construindo uma aplicação web. 
 
 Enfim, o resultado foi muito satisfatório, visto que conseguimos aprender coisas novas que nos farão melhor no que nós fazemos. Provavelmente não será prático fazer isso todas as vezes, visto que demorou muito mais do que demoraria se estivéssemos fazendo sozinhos, mas mesmo assim encontramos valor na prática e entendemos o escopo da importância da revisão de código por terceiros e a refatoração de códigos por outras pessoas, em prol de sua qualidade.
 
-### Tiago Emilio  & Marcelo Queiroga
+### Marcelo Manchester & Tiago Emilio
 
-A nossa responsabilidade era fazer o Deploy no AZURE , onde ainda iriamos começar pois nos dois nao sabiamos muito sobre como fazer , tivemos que primeiramente pesquisar sobre e entender como fazia apos isso nos dois nos reunimos pelo discord para tentarmos fazer sendo marcelo o piloto enquanto eu era o co-piloto pesquisando sobre duvidas que vinham a surgir porem ainda tivemos algumas dificuldades em meio ao processo  mas consguindo nos ajudar multuamente para conseguir alcançar nosso objetivo , acredito que ao ter feito essa tarefa em dupla acabou por ajudar bastante por conta que um ajudava o outro em diversas questoes assim um complementado as dificuldades do outro, no geral achamos muito produtivo e pratico.
+A nossa responsabilidade era fazer o Deploy no AZURE, em que ainda iríamos começar pois nós dois não sabíamos muito sobre como fazer, tivemos que primeiramente pesquisar sobre e entender como fazia após isso nós dois nos reunimos pelo discord para tentarmos fazer sendo Marcelo o piloto enquanto eu (Tiago) era o copiloto pesquisando sobre dúvidas que vinham a surgir porem ainda tivemos algumas dificuldades em meio ao processo mas conseguindo nos ajudar mutuamente para conseguir alcançar nosso objetivo, acredito que ao ter feito essa tarefa em dupla acabou por ajudar bastante por conta que um ajudava o outro em diversas questões assim um complementando as dificuldades do outro, no geral achamos muito produtivo e prático.
 
 # Equipe
 
