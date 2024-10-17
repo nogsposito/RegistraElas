@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/992868c6-1de6-4111-9749-83ff5b0e3f30
 
 ## Diagrama de Atividade do Sistema
 
-[Diagrama](https://github.com/nogsposito/Projetos2-Cesar/blob/main/assets/Screenshot%202024-10-17%2014.42.55.png)
+![Diagrama](https://github.com/nogsposito/RegistraElas/blob/main/assets/Screenshot%202024-10-17%2014.42.55.png)
 
 https://lucid.app/lucidchart/e7280f17-ef8f-4b89-8089-3e48a311c40d/edit?viewport_loc=-2030%2C-588%2C2690%2C1188%2C0_0&invitationId=inv_8a7efea1-4c63-42b2-b9af-ad56427c8cc7
 
