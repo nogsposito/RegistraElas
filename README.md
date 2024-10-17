@@ -1,6 +1,6 @@
-# (nome)
+# RegistraElas
 
-O (nome) é uma aplicação web voltado para o **gerenciamento de cadastros da empresa Fábrica de Ideias.**
+O "RegistraElas" é uma aplicação web voltado para o **gerenciamento de cadastros da empresa Fábrica de Ideias.**
 
 Utilizando a linguagem de programação **Python**, junto com o framework **Django**, com deploy na **Azure**, a aplicação foi desenvolvida com o objetivo de oferecer um gerenciamento do sistema de cadastro de mulheres interessadas em trabalhar na Fábrica de Ideias, de forma que o processo de contrato seja facilitado e atinja mais possíveis colaboradoras.
 
