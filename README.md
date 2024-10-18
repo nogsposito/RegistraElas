@@ -24,7 +24,6 @@ Nenhum problema ou bug durante o processo.
 
 ## Screencast do Uso do Sistema
 
-![Vídeo protótipo Django](https://github.com/nogsposito/Projetos2-Cesar/blob/main/assets/Screen%20recording%202024-10-18%2009.04.29.webm)
 https://youtu.be/By_C4sYZ948?si=8iZrQtOVyAPWsAfv
 
 ## Relato da Programação em Par
